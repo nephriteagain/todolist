@@ -1,0 +1,102 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: azure;
+}
+
+.app {
+    width: 80%;
+    margin: 0 auto
+}
+
+.welcome {
+    text-align: center;
+}
+
+.create-task {
+    width: 90%;
+    margin-left: 0%;
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+
+.input-task {
+    width:75%;
+    height:35px;
+    border-radius: 3px;
+    margin-right: 10px;
+    margin-left: auto;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.task-button {
+    cursor: pointer;
+    height: 37px;
+    width: 20%;
+    margin-right: auto;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+
+table {
+    /* temporary */
+    border: 1px solid black;
+    /* temporary */
+    width: 90%;
+}
+
+.task-column {
+    width: 60%;
+}
+
+tr {
+    max-height: 100px;
+}
+
+
+th {
+    background-color: darkgrey;
+}
+
+
+td {
+    overflow: hidden;
+    height: 30px;
+    padding-left: 10px;
+    font-size: 18px;
+}
+
+.time-table, .action-table {
+    text-align: center;
+}
+
+tr {
+    height: 35px;
+}
+
+tr:hover {
+    color: white !important;
+    background-color: deepskyblue !important;
+}
+
+.btn-complete:hover {
+    background-color: green;
+    font-size: 110%;
+}
+
+.btn-remove:hover {
+    background-color: red;
+    font-size: 110%;
+}
+
+tr:nth-child(even) {background: #CCC}
+tr:nth-child(odd) {background: #FFF}
+
+thead:hover {
+    color: deepskyblue;
+}
